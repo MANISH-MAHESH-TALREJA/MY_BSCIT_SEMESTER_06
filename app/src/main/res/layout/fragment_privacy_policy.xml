@@ -1,0 +1,321 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    style="@style/SmallHorizontalLinearLayout">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/sem06" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center_horizontal"
+        android:text="@string/my_bscit_privacy_policy"
+        android:textColor="@color/cal"
+        android:textSize="@dimen/_19sdp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout style="@style/MainHorizontalLinearLayout">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/privacy_policy"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="MANISH MAHESH TALREJA BUILT THE MY-BSCIT (SEM 06) APP AS A COMMERCIAL APP. THIS SERVICE IS PROVIDED BY MANISH MAHESH TALREJA AND IS INTENDED FOR USE AS IS.\n\n
+THIS PAGE IS USED TO INFORM VISITORS REGARDING MY POLICIES WITH THE COLLECTION, USE, AND DISCLOSURE OF PERSONAL INFORMATION IF ANYONE DECIDED TO USE MY SERVICE.\n\n
+IF YOU CHOOSE TO USE MY SERVICE, THEN YOU AGREE TO THE COLLECTION AND USE OF INFORMATION IN RELATION TO THIS POLICY. THE PERSONAL INFORMATION THAT I COLLECT IS USED FOR PROVIDING AND IMPROVING THE SERVICE. I WILL NOT USE OR SHARE YOUR INFORMATION WITH ANYONE EXCEPT AS DESCRIBED IN THIS PRIVACY POLICY.\n\n
+THE TERMS USED IN THIS PRIVACY POLICY HAVE THE SAME MEANINGS AS IN OUR TERMS AND CONDITIONS, WHICH IS ACCESSIBLE AT MY-BSCIT (SEM 06) UNLESS OTHERWISE DEFINED IN THIS PRIVACY POLICY."
+                    android:textSize="@dimen/_15sdp"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/information_collection_and_use"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="
+FOR A BETTER EXPERIENCE, WHILE USING OUR SERVICE, I MAY REQUIRE YOU TO PROVIDE US WITH CERTAIN PERSONALLY IDENTIFIABLE INFORMATION, INCLUDING BUT NOT LIMITED TO USER'S NAME, EMAIL ID, PHONE NUMBER. THE INFORMATION THAT I REQUEST WILL BE RETAINED ON YOUR DEVICE AND IS NOT COLLECTED BY ME IN ANY WAY.\n\n
+THE APP DOES USE THIRD PARTY SERVICES THAT MAY COLLECT INFORMATION USED TO IDENTIFY YOU.\n\n
+LINK TO PRIVACY POLICY OF THIRD PARTY SERVICE PROVIDERS USED BY THE APP\n\n
+GOOGLE PLAY SERVICES.\n
+GOOGLE ANALYTICS FOR FIREBASE."
+                    android:textSize="@dimen/_15sdp"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/log_data"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_05"
+                    android:textSize="@dimen/_15sdp"
+                    />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/cookies"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_04"
+                    android:textSize="@dimen/_15sdp"
+                     />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/service_providers"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_03"
+                    android:textSize="@dimen/_15sdp"
+                     />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/security"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_10"
+                    android:textSize="@dimen/_15sdp"
+                     />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/links_to_other_sites"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_09"
+                    android:textSize="@dimen/_15sdp"
+                     />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/children_privacy"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_08"
+                    android:textSize="@dimen/_15sdp"
+                     />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/changes_to_this_privacy_policy"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_02"
+                    android:textSize="@dimen/_15sdp"
+                     />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/contact_us"
+                    android:textSize="@dimen/_20sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="8sp"
+                    android:longClickable="false"
+                    android:text="@string/long_message_07"
+                    android:textSize="@dimen/_15sdp"
+                     />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

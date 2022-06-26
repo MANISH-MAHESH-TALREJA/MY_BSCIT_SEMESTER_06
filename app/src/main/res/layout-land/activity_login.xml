@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:gravity="center"
+    style="@style/SmallHorizontalLinearLayout">
+
+    <LinearLayout style="@style/MainHorizontalLinearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/sem06" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/baloo"
+            android:includeFontPadding="false"
+            android:text="@string/enter_credentials"
+            android:textAlignment="center"
+            android:textSize="@dimen/_40sdp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/edit_style"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="@dimen/_15sdp"
+            android:fontFamily="@font/baloo"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/_20sdp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:autofillHints=""
+            android:background="@drawable/edit_style"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="@dimen/_15sdp"
+            android:fontFamily="@font/baloo"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/_20sdp" />
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="@dimen/_350sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:backgroundTint="@color/colorAccentDark"
+            android:fontFamily="@font/baloo"
+            android:includeFontPadding="false"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp"
+            app:cornerRadius="@dimen/_20sdp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:focusable="true"
+            android:fontFamily="@font/baloo"
+            android:includeFontPadding="false"
+            android:text="@string/not_registered"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/resetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:focusable="true"
+            android:fontFamily="@font/baloo"
+            android:includeFontPadding="false"
+            android:text="@string/forgot_password"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp" />
+
+    </LinearLayout>
+</ScrollView>
+

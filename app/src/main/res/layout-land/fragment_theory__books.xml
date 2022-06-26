@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/MainHorizontalLinearLayout">
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SPM"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/spm" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/spm_book" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/IOT"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/iot" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/iot_book" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AWP"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/awp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/awp_book" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AI"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/ai" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/ai_book" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/LSA"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/lsa" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/lsa_book" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EJ"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/ej" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/ej_book" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/NGT"
+            style="@style/HorizontalSubjectCard"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/HorizontalCardImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/ngt" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/HorizontalSubjectText"
+
+                    android:text="@string/ngt_book" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

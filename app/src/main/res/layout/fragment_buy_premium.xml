@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/sem06" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/_5sdp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center_horizontal"
+        android:text="@string/premium_features"
+        android:textColor="@color/cal"
+        android:textSize="@dimen/_25sdp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_10sdp"
+        android:autofillHints=""
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="@dimen/_5sdp"
+        android:longClickable="false"
+        android:text="1) ACCESS TO ALL PREMIUM CONTENTS (NOTES, PRACTICALS, VIDEOS).\n\n2) YOU CAN NOW PLAY QUIZ OF ALL THE SUBJECTS WITH PREMIUM VERSION.\n\n3) DAILY NEW NOTICES ABOUT ALL THE MAJOR EVENTS IN NOTICES SECTION.\n\n4) EMAIL SUPPORT WITH PROF. MANISH MAHESH TALREJA.\n\n5) NIGHT MODE FOR VIEWING PDF."
+        android:textSize="@dimen/_13sdp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buyPremium"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/buy_premium"
+        android:textSize="@dimen/_17sdp"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/_15sdp" />
+
+</LinearLayout>

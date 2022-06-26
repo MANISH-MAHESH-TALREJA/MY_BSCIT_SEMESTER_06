@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_3sdp"
+        app:cardCornerRadius="@dimen/_15sdp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_75sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/sem06" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center_horizontal"
+                    android:text="@string/premium_features"
+                    android:textColor="@color/cal"
+                    android:textSize="@dimen/_35sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_525sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:focusableInTouchMode="false"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:longClickable="false"
+                    android:text="1) ACCESS TO ALL PREMIUM CONTENTS (NOTES, PRACTICALS, VIDEOS).\n\n2) YOU CAN NOW PLAY QUIZ OF ALL THE SUBJECTS WITH PREMIUM VERSION.\n\n3) DAILY NEW NOTICES ABOUT ALL THE MAJOR EVENTS IN NOTICES SECTION.\n\n4) EMAIL SUPPORT WITH PROF. MANISH MAHESH TALREJA.\n\n5) NIGHT MODE FOE VIEWING PDF."
+                    android:textSize="@dimen/_18sdp"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/buyPremium"
+                    android:layout_width="@dimen/_350sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:text="@string/buy_premium"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    app:cornerRadius="@dimen/_30sdp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

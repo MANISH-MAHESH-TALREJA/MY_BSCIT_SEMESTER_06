@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        style="@style/MainLinearLayout">
+
+        <yanzhikai.textpath.SyncTextPathView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="@dimen/_15sdp"
+            app:duration="12000"
+            app:paintStrokeColor="@android:color/black"
+            app:pathStrokeColor="@android:color/holo_red_dark"
+            app:showPainter="true"
+            app:text="WELCOME TO MY-BSCIT"
+            app:textInCenter="true"
+            app:textSize="@dimen/_23sdp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quiz"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_75sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_5sdp"
+
+                    android:src="@drawable/quiz" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_265sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/play_quiz"
+                    android:textAlignment="center"
+                    android:textColor="@color/being_dark"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/download"
+                style="@style/SubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        style="@style/SubjectImage"
+
+                        android:src="@drawable/download" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/SubjectCardWithSmallText"
+                        android:gravity="center"
+
+                        android:text="@string/download" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/notice"
+                style="@style/SubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        style="@style/SubjectImage"
+
+                        android:src="@drawable/notice" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/SubjectCardWithSmallText"
+                        android:gravity="center"
+
+                        android:text="@string/notices" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pdf"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_75sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_5sdp"
+
+                    android:src="@drawable/books" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="@dimen/_265sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/access_course_contents"
+                    android:textAlignment="center"
+                    android:textColor="@color/being_dark"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+

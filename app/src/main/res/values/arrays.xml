@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>DASHBOARD</item>
+        <item />
+        <item>BUY PREMIUM</item>
+        <item>RATE APP</item>
+        <item>SHARE APP</item>
+        <item />
+        <item>CONTACT US</item>
+        <item>PRIVACY POLICY</item>
+        <item>REQUEST CONTENT</item>
+        <item>MORE APPLICATIONS</item>
+        <item />
+        <item>EXIT APPLICATION</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_shopping_cart_black_24dp</item>
+        <item>@drawable/ic_baseline_share_24</item>
+        <item>@drawable/ic_baseline_stars_24</item>
+        <item>0</item>
+        <item>@drawable/ic_baseline_call_24</item>
+        <item>@drawable/ic_baseline_vpn_key_24</item>
+        <item>@drawable/ic_baseline_sentiment_satisfied_alt_24</item>
+        <item>@drawable/ic_baseline_emoji_people_24</item>
+        <item>0</item>
+        <item>@drawable/ic_exit_to_app_black_24dp</item>
+    </array>
+
+</resources>

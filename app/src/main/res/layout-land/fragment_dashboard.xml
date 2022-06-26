@@ -1,0 +1,160 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/MainLinearLayout">
+
+        <yanzhikai.textpath.SyncTextPathView
+            android:id="@+id/welcomeText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            app:duration="12000"
+            app:paintStrokeColor="@android:color/black"
+            app:pathStrokeColor="@android:color/holo_red_dark"
+            app:showPainter="true"
+            app:text="WELCOME TO MY-BSCIT"
+            app:textInCenter="true"
+            app:textSize="@dimen/_23sdp" />
+
+        <LinearLayout style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/quiz"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/quiz" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:fontFamily="@font/baloo"
+                        android:text="@string/play_quiz_game"
+                        android:textAlignment="center"
+                        android:textColor="@color/being_dark"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pdf"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/sem06" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:fontFamily="@font/baloo"
+                        android:text="@string/course_content"
+                        android:textAlignment="center"
+                        android:textColor="@color/being_dark"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/download"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/download" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:fontFamily="@font/baloo"
+                        android:text="@string/downloaded_files"
+                        android:textAlignment="center"
+                        android:textColor="@color/being_dark"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/notice"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/notice" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:fontFamily="@font/baloo"
+                        android:text="@string/latest_notices"
+                        android:textAlignment="center"
+                        android:textColor="@color/being_dark"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

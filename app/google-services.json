@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "185466974886",
+    "firebase_url": "https://my-bscit-semester-06.firebaseio.com",
+    "project_id": "my-bscit-semester-06",
+    "storage_bucket": "my-bscit-semester-06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185466974886:android:e1ae2c7af3be14624cba67",
+        "android_client_info": {
+          "package_name": "net.manish.mybscitsem06"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185466974886-4jiuk2o2iskmvpvm56il369p50qog4vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtcuZKhh841E-Ff2NOSsgfRGMM5iUJSJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185466974886-4jiuk2o2iskmvpvm56il369p50qog4vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

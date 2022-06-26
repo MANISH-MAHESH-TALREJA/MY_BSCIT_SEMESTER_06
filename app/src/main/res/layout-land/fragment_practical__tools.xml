@@ -1,0 +1,184 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/MainHorizontalLinearLayout">
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/LSA"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/iot" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/iot_viva" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EJ"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/awp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+                        android:text="@string/awp_viva" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NGT"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+
+                        app:srcCompat="@drawable/ai" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+
+                        android:text="@string/ai_viva" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/EXTRA"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/android" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+                        android:text="@string/ej_viva" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SPM"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/sic_tool" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+                        android:text="@string/packet_tracer" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/IOT"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/bi_tool" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+                        android:text="@string/vs_studio" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/CardLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AWP"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/pgis_tool" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+                        android:text="@string/quantum_gis" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AI"
+                style="@style/HorizontalSubjectCard"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/HorizontalCardImage"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/amp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/HorizontalSubjectText"
+                        android:text="@string/android_studio" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    style="@style/SmallHorizontalLinearLayout">
+
+    <LinearLayout style="@style/MainHorizontalLinearLayout">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:gravity="center_horizontal"
+            android:text="@string/request_content"
+            android:textColor="@color/cal"
+            android:textSize="@dimen/_40sdp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:autofillHints=""
+            android:background="@drawable/edit_style"
+            android:drawableStart="@drawable/ic_baseline_book_24"
+            android:drawablePadding="@dimen/_15sdp"
+            android:hint="@string/content_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/_15sdp" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:autofillHints=""
+            android:background="@drawable/edit_style"
+            android:gravity="start"
+            android:hint="@string/content_description"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:padding="@dimen/_10sdp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/_15sdp" />
+
+        <Button
+            android:id="@+id/requestBtn"
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:backgroundTint="@color/colorAccentDark"
+            android:includeFontPadding="false"
+            android:text="@string/request"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp"
+            app:cornerRadius="@dimen/_10sdp" />
+
+    </LinearLayout>
+</ScrollView>

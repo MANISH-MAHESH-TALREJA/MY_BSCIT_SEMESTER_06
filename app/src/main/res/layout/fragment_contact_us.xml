@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    style="@style/SmallHorizontalLinearLayout">
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:contentDescription="@string/app_name"
+
+        app:srcCompat="@drawable/sem06" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_15sdp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="@string/manish_mahesh_talreja"
+        android:textColor="@color/cal"
+        android:textSize="@dimen/_19sdp" />
+
+
+    <LinearLayout style="@style/CardLinearLayout">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/classroom"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/SubjectImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/classroom" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/SubjectCardWithSmallText"
+
+                    android:text="@string/classroom" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/console"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/SubjectImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/console" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/SubjectText"
+
+                    android:text="@string/play_store" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout style="@style/CardLinearLayout">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/youtube"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/SubjectImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/play" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/SubjectCardWithSmallText"
+
+                    android:text="@string/youtube" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/telegram"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/SubjectImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/telegram" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/SubjectText"
+
+                    android:text="@string/telegram" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout style="@style/CardLinearLayout">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/instagram"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/SubjectImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/insta" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/SubjectCardWithSmallText"
+
+                    android:text="@string/instagram" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/gmail"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <LinearLayout style="@style/SmallHorizontalLinearLayout">
+
+                <ImageView
+                    style="@style/SubjectImage"
+                    android:contentDescription="@string/app_name"
+
+                    app:srcCompat="@drawable/gmail" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/SubjectText"
+
+                    android:text="@string/gmail" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
